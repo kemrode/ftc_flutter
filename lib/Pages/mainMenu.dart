@@ -12,40 +12,6 @@ class _MainMemuState extends State<MainMemu> {
   // Properties
   String houseMoveName = "";
   String dateOfHouseMove = "";
-  Map<String, String> rooms = {
-    "cuisine":"CUI",
-    "chambre enfant":"CHE",
-    "chambre parents":"CHP",
-    "chambre ami":"CHA",
-    "salon":"SAL",
-    "bureau":"BUR",
-    "garage":"GAR",
-    "salle de bain":"SDB",
-  };
-  List<String> listOfKitchenItems = [
-    "casseroles","petits ustensiles","assiettes","verres","bols","couverts","plats","conserves",
-    "produit entretien"
-  ];
-  List<String> listOfKidsItem = [
-    "jouets","jeux","livres enfants","vêtements enfant","couverture","draps","alèze","affaires bébé",
-    "oreiller","couette"
-  ];
-  List<String> listOfParents = [
-    "drap","couverture","couette","oreillers","vêtements homme","vêtements femme","grande tenue",
-    "lampe de chevet"
-  ];
-  List<String> listOfFriendRoom = [
-    "drap","oreiller","couverture","lampe de chevet","matériel scrap"
-  ];
-  List<String> listOfMainRoom = [
-    "assiette","luminaire","livres","bd","manga","dvd","cd","jeux vidéos","couverts","verres"
-  ];
-  List<String> listOfDesk = [
-    "administratif","ordinateur","petit matériel de bureau","feuilles blanches","cahiers"
-  ];
-  List<String> listOfBathroom = [
-    "savons","shampooing","serviettes","gants de toilette","matériel salle de bain"
-  ];
 
   @override
   Widget build(BuildContext context) {
